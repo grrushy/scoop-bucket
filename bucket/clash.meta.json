@@ -1,22 +1,22 @@
 {
-    "version": "1.10.0",
+    "version": "1.11.0",
     "description": "Clash.Meta for Windows",
     "homepage": "https://github.com/MetaCubeX/Clash.Meta",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.10.0/Clash.Meta-windows-amd64v1-v1.10.0.zip",
-            "hash": "E917FDC3188BF410F389AE1F85DAE676D8E7B547E0D0663E488043A1DCADE640",
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.11.0/Clash.Meta-windows-arm64-v1.11.0.zip",
+            "hash": "ED7663AB7A255379184C08FAC52737EA669A939B5EF3F9942DE5EF803019112A",
             "bin": [
                 [
-                    "Clash.Meta-windows-amd64v1.exe",
+                    "Clash.Meta-windows-amd64.exe",
                     "clash"
                 ]
             ]
         },
         "32bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.10.0/Clash.Meta-windows-386-v1.10.0.zip",
-            "hash": "3352C8FFF770461DD7443F28005EC258D1B7F413A04A8156E13EE81D3888D09D",
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.11.0/Clash.Meta-windows-386-v1.11.0.zip",
+            "hash": "04E239CDA379529422248AEBF33DE5EF96BB2140B21D99530E3D249B411353FA",
             "bin": [
                 [
                     "Clash.Meta-windows-386.exe",
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-amd64v1-v$version.zip"
+                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-amd64-v$version.zip"
             },
             "32bit": {
                 "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-386-v$version.zip"
