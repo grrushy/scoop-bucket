@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.11.0/Clash.Meta-windows-arm64-v1.11.0.zip",
-            "hash": "ED7663AB7A255379184C08FAC52737EA669A939B5EF3F9942DE5EF803019112A",
+            "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.11.0/Clash.Meta-windows-amd64v1-v1.11.0.zip",
+            "hash": "EAEEB0405170232060FF4B1AD762C3CA07F19BA38A5781DFEB1C29C0692A6AE6",
             "bin": [
                 [
-                    "Clash.Meta-windows-amd64.exe",
+                    "Clash.Meta-windows-amd64v1.exe",
                     "clash"
                 ]
             ]
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-amd64-v$version.zip"
+                "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-amd64v1-v$version.zip"
             },
             "32bit": {
                 "url": "https://github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-386-v$version.zip"
